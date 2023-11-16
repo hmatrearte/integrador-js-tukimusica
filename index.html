@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+    <title>Tienda Tuki</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div>
+                <img class="logo" src="./Assets/img/jimmie_jpg_fondoblanco.jpg" alt="logo">
+            </div>
+            <label class="menu-label" for="toggle-menu"><i class="fa-solid fa-bars cart-icon menu-icon"></i></label>
+            <input type="checkbox" id="toggle-menu">
+            <div class="navbar-list">
+                    <div class="botonHome"><a href="#">Home</a></div>
+                    <div class="botonCat"><a href="#">Categorias</a></div>
+                    <div class="botonNos"><a href="#">Nosotros</a></div>
+                    <div class="botonContact"><a href="#">Contacto</a></d></div>
+            </div>
+            <div class="botonLogin">               
+                    <div class="botonIngresar"><a href="#">Ingresar</a></div>
+                    <div  class="botonRegistrar"><a href="#">Registrarse</a></div>        
+            </div>
+            <label for="cart-toggle"><i class="fa-solid fa-cart-shopping cart-icon"></i></label>
+            <input type="checkbox" id="cart-toggle">
+
+            <div class="cart">
+                <h2>Mi Carrito</h2>
+                <div class="item">
+                    <p>El carrito esta vacio</p>
+                    <a href="#">volver a la tienda</a>
+                    <div>                
+                        <img class="info-compra-img" src="./Assets/img-compra/carrito.webp" alt="carrito">                    
+                    </div>
+                </div>                
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="portada">
+                <img class="portadaImg" src="./Assets/arbolGuauArg.jpg" alt="portada1">
+                <img class="portadaImg" src="./Assets/lollaArg.png" alt="portada2">
+                <img class="portadaImg" src="./Assets/royalblood2217_re.jpg" alt="portada3">
+            </div>
+            <div class="control">
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="aboutUs">
+            <div class="AboutUsTitulo">
+                <h1 class="titulo">Tuki tienda</h1>
+                <h3>Música es cultura</h3>
+            </div>
+            <div class="descripcion">
+            <p>Somos el hogar del auténtico espíritu del rock. Desde los clásicos legendarios hasta las vibraciones contemporáneas, celebramos la música que inspira, emociona y une. Encuentra CDs, vinilos y cassettes, pero sobre todo, encuentra la esencia pura de la música que late en cada nota. ¡Bienvenido a la experiencia musical que perdura en el tiempo! 🤘🎶</p>
+            </div>
+        </section>
+
+        <section class="news">
+            <h2 class="titulo">NOVEDADES</h2>
+            <div class="noticias">
+                <div class="noticia">
+                    <img src="./Assets/news/newsArbol.jpg" alt="noticia">
+                    <h3>Árbol festeja los 20 años de GUAU!</h3>
+                    <p>La banda Árbol festeja sus 20 años con una gira...</p>
+                </div>
+                <div class="noticia">
+                    <img src="./Assets/news/newRoyalBlood.jpg" alt="noticia">
+                    <h3>Royal Blood regresa a Argentina!</h3>
+                    <p>La banda britanica llega al país...</p>
+                </div>
+                <div class="noticia">
+                    <img src="./Assets/news/newLolla.png" alt="noticia">
+                    <h3>Lollapaloza Argentina 2024!</h3>
+                    <p>Conoce el lineup completo del festival más...</p>
+                </div>
+                <div class="noticia">
+                    <img src="./Assets/news/newMegadeth.webp" alt="noticia">
+                    <h3>Aguante Megadeth!</h3>
+                    <p>Megadeth vuelve al país...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+
+            <div class="categoriasConteiner">
+                <div class="categoria">
+                    <h2>CDs</h2>
+                </div>
+                <div class="categoria">
+                    <h2>Vinilos</h2>
+                </div>
+                <div class="categoria">
+                    <h2>Cassettes</h2>
+                </div>
+            </div>
+            <!-- Sección de productos -->
+            <div class="productConteiner">
+                <div class="mas-vendidos">
+                <!-- Contenedor para "Los más vendidos" -->
+                </div>
+                <div class="mas-productos">
+                <!-- Contenedor para más productos -->
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="contacto">
+            <!-- información de contacto -->
+            </div>
+
+        </section>
+        <script src="index.js"></script>
+    </main>
+</body>
+<footer>
+    <p>Hecho por tukex con ❤️</p>
+</footer>
+</html>
