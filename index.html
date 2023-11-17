@@ -7,21 +7,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
-    <title>Tienda Tuki</title>
+    <title>Tuki: Tienda de Música</title>
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div>
-                <img class="logo" src="./Assets/img/jimmie_jpg_fondoblanco.jpg" alt="logo">
+                <img class="logo" src="./Assets/icon/logoCalavera.png" alt="logo">
             </div>
             <label class="menu-label" for="toggle-menu"><i class="fa-solid fa-bars cart-icon menu-icon"></i></label>
             <input type="checkbox" id="toggle-menu">
             <div class="navbar-list">
                     <div class="botonHome"><a href="#">Home</a></div>
-                    <div class="botonCat"><a href="#">Categorias</a></div>
-                    <div class="botonNos"><a href="#">Nosotros</a></div>
-                    <div class="botonContact"><a href="#">Contacto</a></d></div>
+                    <div class="botonNovedades"><a href="#">Novedades</a></div>
+                    <div class="botonCategorias"><a href="#">Categorias</a></div>
+                    <div class="botonNosotros"><a href="#">Nosotros</a></div>
+                    <div class="botonContactos"><a href="#">Contacto</a></d></div>
             </div>
             <div class="botonLogin">               
                     <div class="botonIngresar"><a href="#">Ingresar</a></div>
@@ -43,11 +44,16 @@
         </nav>
     </header>
     <main>
+        <!-- <h2 class="titulo">Atenti</h2> -->
         <section class="hero">
             <div class="portada">
-                <img class="portadaImg" src="./Assets/arbolGuauArg.jpg" alt="portada1">
-                <img class="portadaImg" src="./Assets/lollaArg.png" alt="portada2">
-                <img class="portadaImg" src="./Assets/royalblood2217_re.jpg" alt="portada3">
+                <img class="portadaImg" src="./Assets/hero/lollaArg.png" alt="portada1">
+                <img class="portadaImg" src="./Assets/hero/gojiraYmastodonArg.jpg" alt="portada2">
+                <img class="portadaImg" src="./Assets/hero/arbolGuauArg.jpg" alt="portada3">
+                <img class="portadaImg" src="./Assets/hero/royalblood2217_re.jpg" alt="portada4">
+                <img class="portadaImg" src="./Assets/hero/megadethArg.jpg" alt="portada5">
+                <img class="portadaImg" src="./Assets/hero/rhcpArg.jpg" alt="portada6">
+
             </div>
             <div class="control">
                 <button class="prev">&#10094;</button>
@@ -57,11 +63,23 @@
 
         <section class="aboutUs">
             <div class="AboutUsTitulo">
-                <h1 class="titulo">Tuki tienda</h1>
-                <h3>Música es cultura</h3>
+                <h1 class="titulo">Tuki 📀 Tienda de Música </h1>
             </div>
             <div class="descripcion">
-            <p>Somos el hogar del auténtico espíritu del rock. Desde los clásicos legendarios hasta las vibraciones contemporáneas, celebramos la música que inspira, emociona y une. Encuentra CDs, vinilos y cassettes, pero sobre todo, encuentra la esencia pura de la música que late en cada nota. ¡Bienvenido a la experiencia musical que perdura en el tiempo! 🤘🎶</p>
+                <div class="descripcionTexto">
+                    <h3>Música es cultura</h3>
+                    <p>Somos el hogar del auténtico espíritu del rock. Desde los clásicos legendarios hasta las vibraciones contemporáneas, celebramos la música que inspira, emociona y une. Encuentra CDs, vinilos y cassettes, pero sobre todo, encuentra la esencia pura de la música que late en cada nota. ¡Bienvenido a la experiencia musical que perdura en el tiempo! 🤘🎶</p>
+                </div>
+                <div class="volumenLoco">
+                        <div id="bar1" class="barra"></div>
+                        <div id="bar2" class="barra"></div>
+                        <div id="bar3" class="barra"></div>
+                        <div id="bar4" class="barra"></div>
+                        <div id="bar5" class="barra"></div>
+                        <div id="bar6" class="barra"></div>
+                        <div id="bar7" class="barra"></div>
+                        <div id="bar8" class="barra"></div>
+                </div>
             </div>
         </section>
 
@@ -114,16 +132,42 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
-            <div class="contacto">
-            <!-- información de contacto -->
-            </div>
 
+        <section class="contact">
+            <!-- <h2 class="titulo">Contacto</h2> -->
+            <div class="contact-container">
+                <div class="mensaje-container">
+                    <h3>Dejanos tu mensaje!</h3>
+                    <form class="form">
+                        <label for="name"> Nombre
+                            <input type="text" id="name">
+                        </label>
+                        <label for="mail"> Mail
+                            <input type="email" id="mail">
+                        </label>
+                        <textarea name="mensaje" id="mensaje" cols="35" rows="10">Mensaje</textarea>
+                        <a href="#" class="boton-enviar">Enviar</a>                        
+                    </form>
+                </div>
+                <div class="redes">
+                    <h3>Nuestras Redes</h3>
+                    <ul class="redes-list">
+                            <li><a href="#"><img class="logo" src="./Assets/icon/logoDiscord.png" alt="logo discord"></a></li>
+                            <li><a href="#"><img class="logo" src="./Assets/icon/instagram.jpg" alt="logo instagram"></a></li>
+                            <li><a href="#"><img class="logo" src="./Assets/icon/facebook.jpg" alt="logo de facebook"></a></li>
+                            <li><a href="#"><img class="logo" src="./Assets/icon/spotify.jpg" alt="logo de spotify"></a></li>
+                        </ul>
+                        <h3>Ubicación</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113927.13575171452!2d-65.22259365!3d-26.832858899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94223792d6c56903%3A0xf88d5b92b5c56527!2sSan%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1691458990804!5m2!1ses!2sar" width="350" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
         </section>
         <script src="index.js"></script>
     </main>
 </body>
 <footer>
-    <p>Hecho por tukex con ❤️</p>
+    <div class="footer">
+        <p>Hecho por <span>Tukex - Matias Rearte</span> con ❤️</p>
+    </div>
 </footer>
 </html>
