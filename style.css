@@ -26,6 +26,7 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: var(--textoColor);
     max-width: 1200px;
+    margin: 0 auto;
 }
 header{
     position: sticky;
@@ -38,9 +39,8 @@ header{
     display: flex;
     background-color: var(--segundoColor);
     justify-content: space-around;
-    max-width: 1200px;
     width: 1200px;
-    padding: 5px;
+    padding: 20px 0 30px 0;
     opacity: 0.9;
     margin-bottom: 50px;
     transition: 0.5s;
@@ -62,7 +62,7 @@ header{
 
 .logo{
     display: flex;
-    max-width: 40px;
+    width: 50px;
     padding: 5px;
     transition: 0.5s;
     -webkit-transition: 0.5s;
@@ -94,11 +94,6 @@ header{
     -o-transition: all 0.5s;
 }
 
-.navbar-list{
-    display: flex;
-    padding-top: 8px;
-}
-
 .botonHome, .botonCategorias, .botonNovedades, .botonNosotros, .botonContactos {
     padding-bottom: 1px;
 }
@@ -107,7 +102,7 @@ header{
     border-bottom: 1px solid var(--primerColor);
 }
 
-.botonLogin{
+.botonLogin, .navbar-list{
     display: flex;
     text-align: center;
     align-items: center;
@@ -158,71 +153,15 @@ header{
     color: var(--conteinerColor);
 }
 /* ---------- CARRITO --------------- */
-.cart-icon{
-    font-size: 25px;
-    padding: 20px;
-    color: var(--sombraColor);
-    cursor: pointer;
-}
 
-.menu-label i{
-    display: none;
-}
-
-.toggle-menu{
-    display: none;
-}
-
-#toggle-menu{
-    display: none;
-}
-
-#cart-toggle{
-    display: none;
-}
-
-.cart{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 0;
-    top: 65px;
-    background-color: var(--fondo);
-    border-left: 1px solid var(--primerColor);
-    height: calc(100vh - 75px);
-    overflow-y: scroll; 
-    display: none;
-}
-
-.cart h2{
-    display: flex;
-    color: var(--conteinerColor);
-    border-bottom: 1px solid var(--primerColor);
-    /* background-color: crimson; */
-    margin: 0 auto;
-    padding-top: 20px;
-}
-
-.item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
+.cartConteinerIcon{
     
 }
 
-.item a{
-    margin: 100px 20px;
-    color: var(--conteinerColor);
-    background-color: var(--fondo);
-    font-size: 30px;
-    font-weight: 500;
-    
-}
-
-#cart-toggle:checked + .cart{
-    display: flex;
+.cartIcon{
+    width: 40px;
+    height: 40px;
+    color: var(--fondo);
 }
 
 /* ------------------Portada ----------------------- */
@@ -257,7 +196,7 @@ header{
 .portadaImg{
     display: flex;
     justify-content: center;
-    max-width: 650px;
+    max-width: 700px;
     width: 100%;
     height: auto;
 }
@@ -360,6 +299,7 @@ header{
     width: 400px;
     height: 400px;
     margin: 0 auto;
+    font-size: 20px;
     /* background-color: crimson; */
 }
 
@@ -369,12 +309,12 @@ header{
     justify-content: center;
     height: 400px;
     width: 600px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 }
 
 .barra {
     width: 25px;
-    background-color: var(--segundoColor);
+    background-image: linear-gradient(to bottom, #2d2555, #392e74, #463895, #5341b6, #614ad9);
     margin: 0 10px;
 }
 
@@ -386,7 +326,6 @@ header{
     align-items: center;
     justify-content: center;
     text-align: center;
-    max-width: 1100px;
 }
 
 .noticias{
@@ -397,8 +336,6 @@ header{
     justify-content: center;
     text-align: center;
     background-color: var(--primerColor);
-    max-width: 1200px;
-    max-height: 600px;
     height: 350px;
     box-shadow: 0 0 10px 0px var(--textoColor);
     border-radius: 2rem;
@@ -493,23 +430,25 @@ header{
 
 .contact-container{
     display: flex;
+    /* background-color: var(--conteinerColor); */
     gap:50px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     font-weight: 500;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    box-shadow: -3px 2px 8px var(--sombraColor);
+    /* box-shadow: -3px 2px 8px var(--sombraColor); */
     padding: 0 100px;
-    margin: 0 auto;
+    /* margin: 0 auto;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    -o-border-radius: 15px; */
 }
 
 .contact-container input{
+    background-color: var(--fondo);
     border-bottom: 1px solid var(--segundoColor);
     border-right: none;
     border-top: none;

@@ -151,7 +151,7 @@ const infoProductos = [
     banda:"Limp Bizkit",
     genero:"Nu Metal",
     categoria:"Cd",
-    imgTapa:"./Assets/products/limpBizkitChocolateStarfish&theHotDogFlavoredWater.jpg",
+    imgTapa:"./Assets/products/limpBizkitChocolate.jpg",
 },
 {
     id: 18,
