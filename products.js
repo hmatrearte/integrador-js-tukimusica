@@ -3,7 +3,7 @@ const infoProductos = [
 {   
     id: 1,
     precio: 6810,
-    nombre:"Combativo",
+    album:"Combativo",
     banda:"A.N.I.M.A.L.",
     genero:"Groove metal",
     categoria:"Cd",
@@ -12,7 +12,7 @@ const infoProductos = [
 {
     id: 2,
     precio: 5450,
-    nombre:"For Those That Wish To Exist",
+    album:"For Those That Wish To Exist",
     banda:"Architects",
     genero: "Metal progresivo",
     categoria:"Cd",
@@ -21,7 +21,7 @@ const infoProductos = [
 {
     id: 3,
     precio:4950,
-    nombre:"Colourmeinkindness",
+    album:"Colourmeinkindness",
     banda:"Basement",
     genero:"Rock alternativo",
     categoria:"Cd",
@@ -30,7 +30,7 @@ const infoProductos = [
 {
     id: 4,
     precio:7000,
-    nombre:"Libro - Basado En Hechos Reales",
+    album:"Libro - Basado En Hechos Reales",
     banda:"Carajo",
     genero:"Groove metal",
     categoria:"Cd",
@@ -39,7 +39,7 @@ const infoProductos = [
 {
     id: 5,
     precio:4900,
-    nombre:"The Above",
+    album:"The Above",
     banda:"Code Orange",
     genero:"Rock alternativo",
     categoria:"Cd",
@@ -48,7 +48,7 @@ const infoProductos = [
 {
     id: 6,
     precio:75000,
-    nombre:"Lost Not Forgotten Archives Made In Japan Live 2006",
+    album:"Lost Not Forgotten Archives Made In Japan Live 2006",
     banda:"Dream Theater",
     genero:"Metal progresivo",
     categoria:"Vinilo",
@@ -57,7 +57,7 @@ const infoProductos = [
 {
     id: 7,
     precio:20900,
-    nombre:"The Doors",
+    album:"The Doors",
     banda:"The Doors",
     genero:"Rock",
     categoria:"Vinilo",
@@ -66,7 +66,7 @@ const infoProductos = [
 {
     id: 8,
     precio:9400,
-    nombre:"Huelas Digitales",
+    album:"Huelas Digitales",
     banda:"Eruca Sativa",
     genero:"Rock alternativo",
     categoria:"Cd",
@@ -75,7 +75,7 @@ const infoProductos = [
 {
     id: 9,
     precio:27500,
-    nombre:"But here we are",
+    album:"But here we are",
     banda:"Foo Fighters",
     genero:"Post-grunge",
     categoria:"Cd",
@@ -84,7 +84,7 @@ const infoProductos = [
 {
     id: 10,
     precio:2500,
-    nombre:"EP - Convicciones",
+    album:"EP - Convicciones",
     banda:"Horizontes HZT",
     genero:"Hard Core",
     categoria:"Cd",
@@ -93,7 +93,7 @@ const infoProductos = [
 {
     id: 11,
     precio:36800,
-    nombre:"Crawler",
+    album:"Crawler",
     banda:"Idles",
     genero:("Post-punk", "Post-hardcore"),
     categoria:"Vinilo",
@@ -102,7 +102,7 @@ const infoProductos = [
 {
     id: 12,
     precio:6500,
-    nombre:"Furia Interior",
+    album:"Furia Interior",
     banda:"Karma Sudaca",
     genero:"Rock alternativo",
     categoria:"Cd",
@@ -111,7 +111,7 @@ const infoProductos = [
 {
     id: 13,
     precio:46600,
-    nombre:"Requiem",
+    album:"Requiem",
     banda:"Korn",
     genero:"Nu Metal",
     categoria:"Vinilo",
@@ -120,7 +120,7 @@ const infoProductos = [
 {
     id: 14,
     precio:10800,
-    nombre:"IV",
+    album:"IV",
     banda:"Led Zeppelin",
     genero:("Hard rock", "blues rock"),
     categoria:"Cd",
@@ -129,7 +129,7 @@ const infoProductos = [
 {
     id: 15,
     precio:8950,
-    nombre:"Cassette - Led Zeppelin I",
+    album:"Cassette - Led Zeppelin I",
     banda:"Led Zeppelin",
     genero:("Hard rock", "blues rock"),
     categoria:"Cassette",
@@ -138,7 +138,7 @@ const infoProductos = [
 {
     id: 16,
     precio:69800,
-    nombre:"Led Zeppelin III",
+    album:"Led Zeppelin III",
     banda:"Led Zeppelin",
     genero:("Hard rock", "blues rock"),
     categoria:"Vinilo",
@@ -147,7 +147,7 @@ const infoProductos = [
 {
     id: 17,
     precio:24100,
-    nombre:"Chocolate Starfish & The Hot Dog Flavored Water",
+    album:"Chocolate Starfish & The Hot Dog Flavored Water",
     banda:"Limp Bizkit",
     genero:"Nu Metal",
     categoria:"Cd",
@@ -156,7 +156,7 @@ const infoProductos = [
 {
     id: 18,
     precio:3000,
-    nombre:"Amsterdam",
+    album:"Amsterdam",
     banda:"Low Price",
     genero:"Rock Alternativo",
     categoria:"Cd",
@@ -165,7 +165,7 @@ const infoProductos = [
 {
     id: 19,
     precio:7700,
-    nombre:"Absolution",
+    album:"Absolution",
     banda:"Muse",
     genero:("Metal progresivo", "Rock Alternativo"),
     categoria:"Cd",
@@ -174,7 +174,7 @@ const infoProductos = [
 {
     id: 20,
     precio:9500,
-    nombre:"Live At Rome Olympic Stadium Cd Dvd",
+    album:"Live At Rome Olympic Stadium Cd Dvd",
     banda:"Muse",
     genero:("Metal progresivo", "Rock Alternativo"),
     categoria:"Cd",
